@@ -15,7 +15,8 @@
 	<!--Feuilles de style-->
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
 	<link rel="stylesheet" href="./assets/style.css">
-	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" 
+			rel="stylesheet">
 
 	<!-- Préchargement des ressources -->
 	<link rel="preload" as="image" href="./assets/images/nina-carducci-small.webp" media="(max-width: 767px)">
@@ -42,7 +43,43 @@
 	<!--####### Ajout de "defer" ########-->
 	<script src="./assets/maugallery.js" defer></script>
 	<script src="./assets/scripts.js" defer></script>
+
 	
+	<!-- Données structurées -->
+	<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Nina Carducci",
+    "jobTitle": "Photographe professionnel",
+    "image": "./assets/images/nina-carducci.webp",
+    "telephone": "+33 5 56 67 78 89",
+    "email": "contact@ninacarducci.photo",
+    "sameAs" : "https://www.instagram.com/ninacarducci.photo",
+    "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "68 avenue Alsace-Lorraine",
+        "addressLocality": "Bordeaux",
+        "addressRegion": "Nouvelle-Aquitaine",
+        "postalCode": "33200",
+        "addressCountry": "FR"
+    },
+    "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+            "lundi",
+            "mardi",
+            "mercredi",
+            "jeudi",
+            "vendredi"
+        ],
+        "opens": "10:00",
+        "closes": "19:00"
+    },
+    "priceRange": "50€ - €400"
+}
+</script>
+
 </head>
 <body>
 <!--####### Ajout du "role" ########-->	
@@ -244,6 +281,11 @@
 				<img src="./assets/images/appareil-photo.webp" alt="Appareil photo Leica avec objectif Minolta"
 				loading="lazy">
 			</div>
+		</div>
+			<div class="contact-info">
+			<p>Adresse : 68 avenue Alsace-Lorraine, 33200 Bordeaux.</p>
+			<p>Téléphone : 05 56 67 78 89.</p>
+			<p>Horaires : Du lundi au vendredi de 10 heures à 19 heures.</p>
 		</div>
 	</footer>
 </body>
