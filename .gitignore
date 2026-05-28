@@ -3,6 +3,6 @@
 /workspace.xml
 *.pem
 *-key.pem
-
+.idea/
 # Editor-based HTTP Client requests
 /httpRequests/
