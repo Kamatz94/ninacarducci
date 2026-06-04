@@ -1,0 +1,25 @@
+{
+  "name": "ninacarducci.github.io-main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "minify:css": "cleancss -o assets/style.min.css assets/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "clean-css-cli": "^5.6.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kamatz94/ninacarducci.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Kamatz94/ninacarducci/issues"
+  },
+  "homepage": "https://github.com/Kamatz94/ninacarducci#readme"
+}
